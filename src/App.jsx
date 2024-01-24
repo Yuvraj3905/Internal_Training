@@ -6,7 +6,7 @@ import TodoList from "./Components/ToDoList";
 export default function App() {
   return (
     <>
-      <div className="shadow p-3 mb-5  rounded  bg-white container">
+      <div className="shadow p-3 mb-5  rounded bg-primary-subtle container">
         <center>
           <Title />
           <AddTodo />

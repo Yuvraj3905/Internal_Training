@@ -23,7 +23,7 @@ export default function TodoList() {
                   </p>
                 </div>
                 <div className="col-4">
-                  <button type="button" class="btn btn-outline-dark">
+                  <button type="button" class="btn btn-danger">
                     Delete
                   </button>
                 </div>
@@ -41,7 +41,7 @@ export default function TodoList() {
                   </p>
                 </div>
                 <div className="col-4">
-                  <button type="button" class="btn btn-outline-dark">
+                  <button type="button" class="btn btn-danger">
                     Delete
                   </button>
                 </div>
@@ -59,7 +59,7 @@ export default function TodoList() {
                   </p>
                 </div>
                 <div className="col-4">
-                  <button type="button" class="btn btn-outline-dark">
+                  <button type="button" class="btn btn-danger">
                     Delete
                   </button>
                 </div>

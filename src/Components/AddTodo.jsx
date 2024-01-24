@@ -27,7 +27,7 @@ export default function AddTodo() {
           <div className="col-2">
             <div class="d-grid gap-2">
               <button class="btn btn-success" type="button">
-                Button
+                Submit
               </button>
             </div>
           </div>
