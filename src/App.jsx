@@ -1,10 +1,16 @@
 import React from 'react'
-import Login from './Components/Login'
+import Title from './Components/Title'
+import AddTodo from './Components/AddTodo'
 
 export default function App() {
   return (
     <>
-    <Login />
+     <div className='shadow p-3 mb-5 bg-body-tertiary rounded '>
+    <center>
+    <Title />
+    <AddTodo />
+    </center>
+    </div>
 </>
 
   )
