@@ -14,7 +14,7 @@ export default function TodoList() {
         <tbody>
           <tr>
             <th className="col-2">1</th>
-            <td className="col-4">Computer</td>
+            <td className="col-4">Sleep</td>
             <td className="col-6">
               <div className="row">
                 <div className="col-8">
@@ -32,7 +32,25 @@ export default function TodoList() {
           </tr>
           <tr>
             <th className="col-2">2</th>
-            <td className="col-4">Mark</td>
+            <td className="col-4">Dream</td>
+            <td className="col-6">
+              <div className="row">
+                <div className="col-8">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
+                  </p>
+                </div>
+                <div className="col-4">
+                  <button type="button" class="btn btn-outline-dark">
+                    Delete
+                  </button>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th className="col-2">3</th>
+            <td className="col-4">Work</td>
             <td className="col-6">
               <div className="row">
                 <div className="col-8">
