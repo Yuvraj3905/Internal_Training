@@ -5,14 +5,17 @@ import TodoList from "./Components/TodoList";
 
 export default function App() {
   const todolist=[{
+    index:1,
     name:"Computer",
     desc:"Computers bloody",
   },
   {
+    index:2,
     name:"Computer",
     desc:"Computers bloody",
   },
   {
+    index:3,
     name:"Computer",
     desc:"Computers bloody",
   }]

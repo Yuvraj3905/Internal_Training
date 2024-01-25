@@ -1,12 +1,13 @@
 import React from 'react'
 
-export default function TodoItem({todos}) {
-  
+export default function TodoItem(props) {
+  let todos=props.todos;
+  let indx1=parseInt(props.indx)+1;
 
   return (
    <>
           <tr>
-            <th className="col-2">1</th>
+            <th className="col-2">{indx1}</th>
             <td className="col-4">{todos.name}</td>
             <td className="col-6">
               <div className="row">
