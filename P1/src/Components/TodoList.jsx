@@ -1,11 +1,10 @@
 import React from "react";
 import TodoItem from "./TodoItem";
-import TodoItem2 from "./TodoItem2";
 
-export default function TodoList() {
+export default function TodoList({todoList}) {
   return (
     <div>
-      <table class="table">
+      <table className="table">
         <thead>
           <tr>
             <th scope="col-2">S.NO</th>
@@ -14,7 +13,9 @@ export default function TodoList() {
           </tr>
         </thead>
         <tbody>
-      <TodoItem />
+      {todoList.map((item)=>{
+        return <TodoItem key={item} todos={item}  />
+      })}
         </tbody>
       </table>
     </div>
