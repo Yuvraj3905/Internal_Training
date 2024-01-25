@@ -1,4 +1,6 @@
 import React from "react";
+import TodoItem from "./TodoItem";
+import TodoItem2 from "./TodoItem2";
 
 export default function TodoList() {
   return (
@@ -12,60 +14,7 @@ export default function TodoList() {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <th className="col-2">1</th>
-            <td className="col-4">Sleep</td>
-            <td className="col-6">
-              <div className="row">
-                <div className="col-8">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
-                  </p>
-                </div>
-                <div className="col-4">
-                  <button type="button" class="btn btn-danger">
-                    Delete
-                  </button>
-                </div>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <th className="col-2">2</th>
-            <td className="col-4">Dream</td>
-            <td className="col-6">
-              <div className="row">
-                <div className="col-8">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
-                  </p>
-                </div>
-                <div className="col-4">
-                  <button type="button" class="btn btn-danger">
-                    Delete
-                  </button>
-                </div>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <th className="col-2">3</th>
-            <td className="col-4">Work</td>
-            <td className="col-6">
-              <div className="row">
-                <div className="col-8">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
-                  </p>
-                </div>
-                <div className="col-4">
-                  <button type="button" class="btn btn-danger">
-                    Delete
-                  </button>
-                </div>
-              </div>
-            </td>
-          </tr>
+      <TodoItem />
         </tbody>
       </table>
     </div>
