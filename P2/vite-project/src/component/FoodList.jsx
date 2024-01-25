@@ -8,10 +8,10 @@ export default function FoodList(props) {
         <h2 className='p-3'>Food Items</h2>
     <ul className="list-group">
   <li className="list-group-item">{props.item[0]}</li>
-  <li className="list-group-item">Burger</li>
-  <li className="list-group-item">Fries</li>
-  <li className="list-group-item">Hotdog</li>
-  <li className="list-group-item">Pizza</li>
+  <li className="list-group-item">{props.item[1]}</li>
+  <li className="list-group-item">{props.item[2]}</li>
+  <li className="list-group-item">{props.item[3]}</li>
+  <li className="list-group-item">{props.item[4]}</li>
 </ul>
 
     </div>
