@@ -8,7 +8,7 @@ export default function FoodList(props) {
         <h2 className='p-3'>Food Items</h2>
     <ul className="list-group">
         {item.map((x)=>(
-  <li className="list-group-item">{x}</li>
+  <li key={x} className="list-group-item">{x}</li>
         ))}
   
 </ul>
